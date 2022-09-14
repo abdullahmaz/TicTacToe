@@ -5,7 +5,7 @@ char grid[3][3]={{'1','2','3'},{'4','5','6'},{'7','8','9'}};
 int check(){
     
     for(int i=0; i<=2; i++){
-        for(int j=0; j<=2; j++){
+        for(int j=0; j<=0; j++){
             if(grid[i][j]=='x' && grid[i+1][j]=='x' && grid[i+2][j]=='x'){
             cout<<"Player 1 wins !!\n";
             return 1;        
